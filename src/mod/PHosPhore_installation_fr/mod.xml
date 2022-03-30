@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<mod>
+	<name>
+		PHosPhore_installation_fr
+	</name>
+	<authors>
+		<author>
+			<name>
+				gugus2000
+			</name>
+			<contacts>
+				<contact type="email">
+					gugus2000@courrier.dev
+				</contact>
+				<contact type="twitter">
+					@gugus2000
+				</contact>
+				<contact type="mastodon">
+					gugus2000@framapiaf.org
+				</contact>
+			</contacts>
+			<work>
+				Initial work
+			</work>
+		</author>
+	</authors>
+	<description>
+		locale and lang file translated in french.
+	</description>
+	<version>
+		1.0.0
+	</version>
+	<license>
+		Chocolate-Ware License
+	</license>
+	<requirements>
+		<requirement type="module" link="https://github.com/gugus2000/PHosPhore_installation" minVersion="1.0.0">
+			PHosPhore_installation
+		</requirement>
+	</requirements>
+	<structure>
+		<folder name="src">
+			<folder name="lang">
+				<folder name="mod">
+					<folder name="PHosPhore_installation">
+						<file name="fr.lang.php" />
+					</folder>
+				</folder>
+			</folder>
+			<folder name="locale">
+				<folder name="mod">
+					<folder name="PHosPhore_installation">
+						<file name="fr.locale.php" />
+					</folder>
+				</folder>
+			</folder>
+			<folder name="mod">
+				<folder name="PHosPhore_installation">
+					<file name="README_fr.md" />
+				</folder>
+				<folder name="PHosPhore_installation_fr">
+					<file name="README.md" />
+					<file name="mod.xml" />
+				</folder>
+			</folder>
+			<file name="README.md" />
+			<file name="LICENSE" />
+		</folder>
+	</structure>
+</mod>
